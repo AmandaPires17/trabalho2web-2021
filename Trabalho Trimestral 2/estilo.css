@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans & display = swap');
+
+:root {
+    --cor1: #252623;
+    --cor2: #636159;
+    --cor3: #DECC00;
+    --cor4: #BFB6A8;
+    --cor5: #EDEDE6;
+    --cor6: #D90118;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    font-family: 'Noto Sans Display', sans-serif;;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid var(--cor1);
+  }
+
+  @media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  body {
+      min-height: 100%;
+      min-width: 100%;
+  }
+  .logo {
+      width: 120px;
+      height: 120px;
+      float: left;
+
+  }
+
+.cabeçalho {
+    background: var(--cor5);
+    text-align: center;
+    float: right;
+}
+
+.menu {
+    background: var(--cor2);
+    border: 2px solid var(--cor3);
+    font-weight: bolder;
+    float: right;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: 'Roboto', sans-serif;
+    padding: 150px;
+}
+
+nav> a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+    margin: 2px;
+}
+
+a {
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    border: 1px solid var(--cor1);
+    background: var(--cor5);
+}
+
+#R.G {
+    width: 280px;
+    height: 180px;
+}
+
+#i4 {
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+.imagens {
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+.links {
+    color: var(--cor1);
+    font-size: 2em;
+}
+
+.rodapé {
+    width: 100%;
+    text-align: center;
+}
+
+.caixa {
+    background-color: var(--cor5);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 10px;
+    box-shadow: 3px 5px 4px var(--cor1);
+}
+
+.table1 {
+    padding: 10px 10px 10px 10px;
+}
+td {
+    padding: 7px 7px 7px 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    vertical-align: top;
+}
+.i_e {
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+.i_d {
+    width: 220px;
+    height: 220px;
+    float: right;
+}
+.article1 {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
+}
+#table2, tr, th {
+    border: 1px solid var(--cor1);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tr2 {
+    border: 2px dotted var(--cor6);
+}
+
+#inicial {
+    background-color: var(--cor4);
+}
+
+#principal {
+    background-color: var(--cor3);
+}
+
+#i12 {
+    width: 25px;
+    height: 23px;
+    padding-right: 5px;
+    float: left;
+}
+#t_v {
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+#table3, tr, th {
+    border: 1px solid var(--cor1);
+    border-collapse: collapse;
+}
+#L_D {
+    background-color: var(--cor2);
+    font-size: 25px;
+}
+#L_D_2 {
+    background-color: var(--cor5);
+    font-size: 13px;
+}
+.d {
+    background-color: var(--cor4); 
+}
+.R {
+    text-align: right;
+}
+.L {
+    text-align: left;
+}
